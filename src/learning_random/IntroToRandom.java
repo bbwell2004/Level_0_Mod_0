@@ -3,7 +3,6 @@ package learning_random;
 import java.util.Random;
 
 //1. Run the program.  What number appears?
-
 //2. Make the number random.
 
 //3. Limit the random number between 0 and 100
@@ -15,9 +14,11 @@ import java.util.Random;
 public class IntroToRandom {
 	public static void main(String[] args) {
 		//Create an object of the Random class here
-
+		Random r2d2=new Random();
+		int randInt=r2d2.nextInt(301)-222;
 		int r = 0;
 		
-		System.out.println(r); 
+		System.out.println(randInt);
+
 	}
 }
